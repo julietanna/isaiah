@@ -1,0 +1,6 @@
+//main page area
+.page {
+	@include outer-container;
+	
+	padding: $base-spacing $base-spacing $large-spacing $base-spacing;
+}

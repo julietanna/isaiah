@@ -1,0 +1,19 @@
+//Top Banner
+.banner {
+	background: url(../images/isaiah-banner.jpg) no-repeat;
+	background-size: cover;
+	height: 155px;
+
+	h1 {
+		color: #fff;
+		font-size: $title-font-size * 1.25;
+		font-variant: small-caps;
+		font-weight: normal;
+		margin-left: 40%;
+		padding-top: 2%;
+
+		a {
+			color: #fff;
+		}
+	}
+}

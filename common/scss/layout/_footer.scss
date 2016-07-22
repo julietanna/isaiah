@@ -1,0 +1,47 @@
+//footer area
+footer {
+	background-color: $red;
+	color: $light-font-color;
+	padding: $tiny-spacing 0 $large-spacing 0;
+	text-align: center;
+
+	a:link, a:visited {
+		color: $light-font-color;
+	}
+}
+
+.footer-wrapper {
+	@include outer-container;
+}
+
+.footer-nav {
+	font-size: $medlarge-font-size;
+	font-variant: small-caps;
+	margin-bottom: $base-spacing;
+
+	li {
+		display: inline;
+		letter-spacing: .15em;
+		padding: 0 $base-spacing;
+	}
+}
+
+.seal {
+	max-width: 100px;
+}
+
+.footer-social--item {
+	display: inline;
+
+	img {
+		max-width: 40px;
+	}
+}
+
+.footer-aas {
+	font-size: $smallish-font-size;
+
+	img {
+		padding: 4px $tiny-spacing 0 $tiny-spacing;
+	}
+}

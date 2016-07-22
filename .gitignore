@@ -1,0 +1,11 @@
+# extensions
+*.jpg
+*.png
+*.gif
+
+# files
+.DS_Store
+
+# directories
+**/.sass-cache
+**/.sass-cache/*

@@ -1,0 +1,93 @@
+//Interactive Document Page
+.doc-col-about {
+	@include span-columns (3);
+}
+
+.doc-area {
+	@include span-columns (9);
+	text-align: center;
+}
+
+.doc-image {
+//	width: 100%
+}
+ .doc-modes, .doc-tools {
+
+	li {
+		display: inline-block;
+		margin-right: $base-spacing;
+		margin-bottom: $base-spacing;
+
+		a {
+			padding: $small-spacing;
+		}
+
+		a.selected:link, a.selected:visited {
+			background-color: $blue;
+			color: #fff;
+		}
+ 	}
+}
+
+// for curatorial info on document pages
+dl.doc-curatorial {
+	color: $blue-font-color;
+
+  dt {
+    float: left;
+    margin-right: 5%;
+    margin-top: 0;
+    max-width: 30%;
+  }
+  
+  dd {
+    margin-left: 35%;
+  }
+  
+  dd::after {
+    content: " ";
+    display: block;
+    clear: left;
+  }  
+}
+
+// for close read transcription
+.doc-closeread {
+	background-color: $buff;
+	border: 1px solid $taupe;
+	padding: $base-spacing;
+}
+
+.closeread-text {
+		color: $taupe;
+}
+
+// for related primary resources on document pages
+.doc-resources {
+	background-color: $taupe;
+	overflow-x: hidden;
+	padding: $base-spacing;
+
+	h2 {
+		font-size: $large-font-size;
+		color: #fff;
+		font-weight: normal;
+	}
+}
+
+.doc-resources-list {
+	white-space: nowrap;
+	
+	li {
+		display: inline-block;
+		line-height: $heading-line-height;
+		margin-right: $large-spacing;
+		max-width: 175px;
+		vertical-align: top;
+		white-space: normal;
+	}
+}
+
+.resources-list-img {
+	display: block;
+}

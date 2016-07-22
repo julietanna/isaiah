@@ -1,0 +1,85 @@
+//Top Navigation
+.top-navigation {
+	text-align: center;
+}
+
+.main-nav-items, .secondary-nav-items {
+	@include outer-container;
+
+	font-variant: small-caps;
+	//height: $top-navigation-height;
+	letter-spacing: .05em;
+
+	li {
+		display: inline-block;
+		line-height: 1em;
+		vertical-align: middle;
+	}
+}
+
+.main-nav {
+	background-color: $taupe;
+}
+
+.main-nav-items {
+	
+	a {
+		display: block;
+		padding: .75em;
+		text-align: center;
+		width: 175px;
+	}
+
+	a:link, a:visited {
+		color: $blue;
+	}
+
+	a:hover {
+		text-decoration: underline;
+	}
+}
+
+.secondary-nav {
+	background-color: $red;
+}
+
+.secondary-nav-items {
+	
+	a {
+		display: block;
+		padding: $tiny-spacing;
+		text-align: center;
+		width: 175px;
+	}
+
+	em {
+		font-variant: normal;
+		letter-spacing: .05em;
+	}
+
+	a:link, a:visited {
+		color: #fff;
+	}
+
+	a:hover {
+		text-decoration: underline;
+	}
+}
+	
+a.main-nav-selected:link, a.main-nav-selected:visited {
+	background-color: $red;
+	color: #fff;
+
+	background-image:
+		radial-gradient(circle at 0 0, $taupe 12px, rgba(204,0,0,0) 13px),
+		radial-gradient(circle at 100% 0, $taupe 12px, rgba(204,0,0,0) 13px);
+	}
+	
+a.secondary-nav-selected:link, a.secondary-nav-selected:visited {
+	background-color: #fff;
+	color: $red;
+
+	background-image:
+		radial-gradient(circle at 0 0, $red 12px, rgba(204,0,0,0) 13px),
+		radial-gradient(circle at 100% 0, $red 12px, rgba(204,0,0,0) 13px);
+	}

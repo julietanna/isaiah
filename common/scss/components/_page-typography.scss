@@ -1,0 +1,12 @@
+//Main Page Content Typography
+.page {
+	
+	h1, h2, h3, p {
+		color: $blue-font-color;
+	}
+
+	h1 {
+		font-weight: normal;
+		font-size: $title-font-size;
+	}
+}

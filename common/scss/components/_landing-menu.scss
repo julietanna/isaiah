@@ -1,0 +1,36 @@
+//Landing Menu
+.landing-square {
+	background-color: $panel-background-color;
+	background-image:
+		radial-gradient(circle at 0 0, #fff 14px, rgba(204,0,0,0) 15px),
+		radial-gradient(circle at 100% 0, #fff 14px, rgba(204,0,0,0) 15px),
+		radial-gradient(circle at 100% 100%, #fff 14px, rgba(204,0,0,0) 15px),
+		radial-gradient(circle at 0 100%, #fff 14px, rgba(204,0,0,0) 15px);	padding: $base-spacing;
+	margin: $base-spacing 0;
+	overflow: visible;
+	padding: $base-spacing;
+	text-align: center;
+
+	@include span-columns (6);
+	@include omega(2);
+
+	img {
+		max-width: 75%;
+		height: auto;
+	}
+}
+
+.small-header {
+	font-variant: small-caps;
+	font-size: $base-font-size;
+	letter-spacing: .15em;
+}
+
+.landing-square-title {
+	font-style: italic;
+	margin-bottom: $tiny-spacing;
+
+	a:link, a:visited {
+		color: $blue-font-color;
+	}
+}
