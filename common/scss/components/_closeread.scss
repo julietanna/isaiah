@@ -1,0 +1,51 @@
+// for close read transcription
+.doc-closeread {
+	background-color: $buff;
+	border: 1px solid $taupe;
+	line-height: 1.25em;
+	padding: $large-spacing;
+	text-align: left;
+}
+
+p.closeread-text, h1.closeread-title {
+		color: $gray-dark !important; //why is this not working?
+}
+
+.bracket {
+		position: relative;
+		overflow: auto;
+}
+
+.bracket:hover {
+		background-color: transparentize($taupe, 0.5);
+}
+
+.bracket-img {
+	height: 100%;
+	width: auto;
+	position: absolute;
+	top: 0;
+	left: -30px;
+}
+
+.script {
+	font-family: "learning-curve";
+	font-size: $medlarge-font-size;
+}
+
+.blackletter {
+	font-size: $medlarge-font-size;
+	margin: 0;
+}
+
+.signatures {
+	color: $gray-dark;
+	width: 25%;
+}
+
+.closeread-title {
+	font-size: $title-font-size;
+	font-style: italic;
+	margin: 0;
+	text-align: center;
+}

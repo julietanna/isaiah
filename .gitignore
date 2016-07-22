@@ -9,3 +9,5 @@
 # directories
 **/.sass-cache
 **/.sass-cache/*
+common/images
+becoming/images

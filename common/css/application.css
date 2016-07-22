@@ -420,14 +420,6 @@ dl.doc-curatorial {
     display: block;
     clear: left; }
 
-.doc-closeread {
-  background-color: #fff4e4;
-  border: 1px solid #ACA9A4;
-  padding: 1.6em; }
-
-.closeread-text {
-  color: #ACA9A4; }
-
 .doc-resources {
   background-color: #ACA9A4;
   overflow-x: hidden;
@@ -512,6 +504,48 @@ footer {
     padding-top: 2%; }
     .banner h1 a {
       color: #fff; }
+
+.doc-closeread {
+  background-color: #fff4e4;
+  border: 1px solid #ACA9A4;
+  line-height: 1.25em;
+  padding: 3.2em;
+  text-align: left; }
+
+p.closeread-text, h1.closeread-title {
+  color: #7d7664 !important; }
+
+.bracket {
+  position: relative;
+  overflow: auto; }
+
+.bracket:hover {
+  background-color: rgba(172, 169, 164, 0.5); }
+
+.bracket-img {
+  height: 100%;
+  width: auto;
+  position: absolute;
+  top: 0;
+  left: -30px; }
+
+.script {
+  font-family: "learning-curve";
+  font-size: 1.5em; }
+
+.blackletter {
+  font-size: 1.5em;
+  margin: 0; }
+
+.signatures {
+  color: #7d7664;
+  width: 25%; }
+
+.closeread-title {
+  font-size: 2.5em;
+  font-style: italic;
+  margin: 0;
+  text-align: center; }
 
 .landing-square {
   background-color: #dddbd9;
