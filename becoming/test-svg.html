@@ -1,0 +1,39 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Test SVG</title>
+
+  <link rel="stylesheet" href="../common/css/temp.css" type="text/css"/>
+  <script src="../common/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+  <script src="../common/js/isaiah.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+<h1>SVG test</h1>
+
+<p>Test slim <a class="pop_item" href="test-slim.html">link</a> |
+<a href="test-lens.html">back to lens test</a>
+</p>
+
+<svg width="400" height="180">
+  <a xlink:href="http://www.w3schools.com/svg/" target="_blank">
+    <rect x="50" y="20" width="150" height="150"
+    style="fill:blue;stroke:pink;stroke-width:5;fill-opacity:0.1;stroke-opacity:0.9" />
+  </a>
+</svg>
+
+<svg height="350" width="400">
+  <a class="pop_xlink" xlink:href="test-slim.html">
+  	<path d="M 100 350 q 150 -300 300 0 L100 350 Z" 
+  		style="fill:blue;stroke:pink;stroke-width:5;fill-opacity:0.1;stroke-opacity:0.9" />
+  </a>
+</svg>
+
+
+</body>
+</html>
