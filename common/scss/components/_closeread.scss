@@ -8,12 +8,12 @@
 }
 
 p.closeread-text, h1.closeread-title {
-		color: $gray-dark !important; //why is this not working?
+	color: $gray-dark !important; //why is this not working?
 }
 
 .bracket {
-		position: relative;
-		overflow: auto;
+	//overflow: auto;
+	position: relative;
 }
 
 .bracket:hover {
@@ -26,6 +26,15 @@ p.closeread-text, h1.closeread-title {
 	position: absolute;
 	top: 0;
 	left: -30px;
+}
+
+a.definition:link, a.definition:visited {
+	color: $gray-dark;
+	text-decoration: underline;
+}
+
+a.definition:hover {
+	color: $red;
 }
 
 .script {

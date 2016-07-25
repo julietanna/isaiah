@@ -1,3 +1,4 @@
+// For popup windows
 .hidden {
   display: none; }
 
@@ -18,30 +19,47 @@
 
 // JavaScript assigns this (or .hidden) to slimpop-container */
 .slimpop-basicsize {
-  bottom: 0;
+  background: $buff;
+  //bottom: 0;
   display: block;
   left: 0;
   margin: auto;
-  max-height: 600px;
-  overflow-x: hidden;
+  max-height: 500px;
+  //overflow-x: hidden;
   overflow-y: auto;
   position: fixed;
   right: 0;
-  top: 0;
+  top: 25%;
   width: 500px;
   z-index: 100;
+}
+
+#slimpop-container {
+
+}
+
+.slimpop-smallsize {
+  max-height: 300px;
 }
 
 #slimpop-wrapper {
   border: 1px solid $taupe;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.75);
   overflow: auto;
-  padding: $base-spacing;
+  padding: $small-spacing $base-spacing $base-spacing $base-spacing;
 }
 
-.slimpop-close {
+.slimpop-title {
+  font-weight: normal;
+  font-size: $large-font-size;
+  margin-bottom: $tiny-spacing;
+}
+
+.slimpop-close a {
   /* for the close link */
+  color: $base-font-color;
   float: right;
+  font-variant: small-caps;
 }
 
 .slim-title {

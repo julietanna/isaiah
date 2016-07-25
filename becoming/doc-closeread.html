@@ -13,7 +13,11 @@
     <title>Isaiah Thomas: Becoming a Printer</title>
 	
     <link rel="stylesheet" href="../common/css/application.css" type="text/css"/>
-
+    <link rel="stylesheet" href="../common/css/icon-font.css" type="text/css"/>
+  
+    <script src="../common/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="../common/js/isaiah.js" type="text/javascript"></script>
+    <script src="../common/js/lens.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -51,11 +55,7 @@
   <div class="doc-col-about">
     <h3 class="small-header">Document</h3>
     <h1>Indenture Contract</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>This document is an apprentice indenture that describes the terms and conditions for Isaiah Thomas to learn the trade of printing. This apprenticeship was established by the Overseers of the Poor in order to provide home and education for the young Isaiah whose mother was too poor to take care of him.</p>
   
     <dl class="doc-curatorial">
       <dt>Date</dt>
@@ -86,7 +86,8 @@
 
     <div class="doc-closeread">
       <h1 class="closeread-title">This Indenture Witnesseth,</h1>
-      <p class="closeread-text"><span class="bracket"><a href=""><img src="images/bracket.svg" class="bracket-img"></a>That <span class="script">Jacob Wendall Andrew Oliver Esqr. Isaac Walker Ebenezer Storor John Barratt Nathanael Greenwood Royall Tyler Thomas Flucker John Tudor and William Phillips Gentlemen</span> Overseers of the Poor of the Town of <em>Boston</em> in the County of <em>Suffolk</em> in <em>New England</em>,</span> by and with the Consent of two of his Majesty’s Justices of the Peace for said County, Have placed and by these Presents do place and bind out <span class="script">Isaiah Thomas a poor Child belonging to said Boston unto Zachariah Fowle of Boston aforesd. Printer and to his Wife and heirs</span> and with them after the Manner of an Apprentice to Dwell and Serve, from the Day of the Date of these Presents, until the <span class="script">Eighth day of January which will be in the Year of Our Lord One Thousand Seven hundred and Sixty Nine at which time the said Apprentice if Living will Arrive to the Age of Twenty One Years</span> During all which said Time or Term, the said Apprentice <span class="script">his</span> said Master <span class="script">&amp; Mistress</span> well and faithfully shall Serve, <span class="script">their</span> Secrets he shall keep close, <span class="script">their</span> Commandments lawful and honest every where he shall gladly obey : he shall do no Damage to <span class="script">his</span> said Master <span class="script">&amp;c</span> nor suffer it to be done by others, without letting or giving seasonable Notice thereof to <span class="script">his</span> said Master <span class="script">&amp;c</span> he shall not waste the Goods of <span class="script">his</span> said Master <span class="script">&amp;c</span> nor lend them unlawfully to any : At Cards, Dice, or any other unlawful Game or Games he shall not play : Fornication he shall not commit : Matrimony <span class="script">during the sd. Term</span> he shall not contract : Taverns, Ale-Houses, or Places of Gaming he shall not haunt or frequent : From the Service of <span class="script">his</span> said Master <span class="script">&amp;c</span> by Day nor Night he shall not absent <span class="script">him</span> self ; but in all Things and at all Times, he shall carry and behave <span class="script">him</span> self towards <span class="script">his</span> said master <span class="script">&amp;c</span> and all <span class="script">theirs</span> as a good and faithful Apprentice ought <span class="script">to do to his utmost Ability</span> during all the Time or Term aforesaid. And the said Master doth hereby Covenant and Agree, <span class="script">for himself his Wife and heirs to teach or Cause the said Apprentice to be taught by the best way and means he Can the Art and Mistery of a Printer also to Read write &amp; Cypher.</span> And also shall and will, well and truly find, allow unto, and provide for the said Apprentice, sufficient and wholsome Meat and Drink, with Washing, Lodging, <span class="script">and Apparrell</span> and other Necessaries meet and convenient for such an Apprentice, during all the Time or Term aforesaid : And at the End and Expiration thereof shall <span class="script">dismiss the said Apprentice with two good Suits of Apparrell for all parts of his Body One for the Lords days the other for working days Suitable to his Degree</span></p>
+      <p class="closeread-text">
+      <span class="bracket"><a class="pop_item" href="closereads/bracket1.html"><img src="images/bracket.svg" class="bracket-img"></a>That <span class="script">Jacob Wendall Andrew Oliver Esqr. Isaac Walker Ebenezer Storor John Barratt Nathanael Greenwood Royall Tyler Thomas Flucker John Tudor and William Phillips Gentlemen</span> <a class="pop_item definition" href="closereads/definition1.html">Overseers of the Poor</a> of the Town of <em>Boston</em> in the County of <em>Suffolk</em> in <em>New England</em>,</span> by and with the Consent of two of his Majesty’s Justices of the Peace for said County, <span class="bracket"><a class="pop_item" href="closereads/bracket2.html"><img src="images/bracket.svg" class="bracket-img"></a>Have placed and by these Presents do place and bind out <span class="script">Isaiah Thomas a poor Child belonging to said Boston unto Zachariah Fowle of Boston aforesd. Printer and to his Wife and heirs</span></span> and with them after the Manner of an Apprentice to Dwell and Serve, from the Day of the Date of these Presents, until the <span class="script">Eighth day of January which will be in the Year of Our Lord One Thousand Seven hundred and Sixty Nine at which time the said Apprentice if Living will Arrive to the Age of Twenty One Years</span> During all which said Time or Term, the said Apprentice <span class="script">his</span> said Master <span class="script">&amp; Mistress</span> well and faithfully shall Serve, <span class="script">their</span> Secrets he shall keep close, <span class="script">their</span> Commandments lawful and honest every where he shall gladly obey : he shall do no Damage to <span class="script">his</span> said Master <span class="script">&amp;c</span> nor suffer it to be done by others, without letting or giving seasonable Notice thereof to <span class="script">his</span> said Master <span class="script">&amp;c</span> he shall not waste the Goods of <span class="script">his</span> said Master <span class="script">&amp;c</span> nor lend them unlawfully to any : At Cards, Dice, or any other unlawful Game or Games he shall not play : Fornication he shall not commit : Matrimony <span class="script">during the sd. Term</span> he shall not contract : Taverns, Ale-Houses, or Places of Gaming he shall not haunt or frequent : From the Service of <span class="script">his</span> said Master <span class="script">&amp;c</span> by Day nor Night he shall not absent <span class="script">him</span> self ; but in all Things and at all Times, he shall carry and behave <span class="script">him</span> self towards <span class="script">his</span> said master <span class="script">&amp;c</span> and all <span class="script">theirs</span> as a good and faithful Apprentice ought <span class="script">to do to his utmost Ability</span> during all the Time or Term aforesaid. And the said Master doth hereby Covenant and Agree, <span class="script">for himself his Wife and heirs to teach or Cause the said Apprentice to be taught by the best way and means he Can the Art and Mistery of a Printer also to Read write &amp; Cypher.</span> And also shall and will, well and truly find, allow unto, and provide for the said Apprentice, sufficient and wholsome Meat and Drink, with Washing, Lodging, <span class="script">and Apparrell</span> and other Necessaries meet and convenient for such an Apprentice, during all the Time or Term aforesaid : And at the End and Expiration thereof shall <span class="script">dismiss the said Apprentice with two good Suits of Apparrell for all parts of his Body One for the Lords days the other for working days Suitable to his Degree</span></p>
 
       <p class="closeread-text"><span class="blackletter">In Testimony whereof</span> the said Parties have to these Indentures interchan- geably set their Hands and Seals, the <span class="script">Fourth</span> Day of <span class="script">June</span> In the <span class="script">29th</span> Year of the Reign of Our Sovereign <span class="script">Lord George the Second King Over Great Britain &amp;c..</span> <em>Annoque Domini,</em> One Thousand Seven Hundred and <span class="script">Fifty Six.</span></p>
 
@@ -150,27 +151,37 @@
       <li><a href="">Resources</a></li>
     </ul>
 
-    <p class="footer-aas">&copy; 2016 <a href="">American Antiquarian Society</a> <img src="../common/images/bullet-star.png"> 185 Salisbury Street, Worcester, Massachusetts 01609-1634 <img src="../common/images/bullet-star.png"> Tel: 508-755-5221 <img src="../common/images/bullet-star.png"> <a href="">Contact Us</a></p>
+    <p class="footer-aas">&copy; 2016 <a href="http://www.americanantiquarian.org/" target="_blank">American Antiquarian Society</a> <img src="../common/images/bullet-star.png"> 185 Salisbury Street, Worcester, Massachusetts 01609-1634 <img src="../common/images/bullet-star.png"> Tel: 508-755-5221 <img src="../common/images/bullet-star.png"> <a href="">Contact Us</a></p>
+
+    <a href="http://www.americanantiquarian.org/" target="_blank">
+      <img src="../common/images/aas-seal.png" alt="Seal of the American Antiquarian Society" class="seal">
+    </a>
 
     <ul class="footer-social">
       <li class="footer-social--item">
-        <a href="https://www.facebook.com/American.Antiquarian/" target="_blank"><img src="../common/images/social-facebook.png"></a>
+        <a href="https://www.facebook.com/American.Antiquarian/" target="_blank">
+          <i class="icon-facebook"></i>
+        </a>
       </li>
 
       <li class="footer-social--item">
-        <a href="https://twitter.com/AmAntiquarian/" target="_blank"><img src="../common/images/social-twitter.png"></a>
-      </li>
+        <a href="https://twitter.com/AmAntiquarian/" target="_blank">
+          <i class="icon-twitter"></i>
+        </a>
+      </li>      
 
       <li class="footer-social--item"> 
-        <a href="https://www.youtube.com/user/AmericanAntiquarian" target="_blank"><img src="../common/images/social-youtube.png"></a>
+        <a href="https://www.youtube.com/user/AmericanAntiquarian" target="_blank">
+          <i class="icon-youtube"></i>
+        </a>
       </li>
 
       <li class="footer-social--item">
-        <a href="https://www.instagram.com/americanantiquarian/" target="_blank"><img src="../common/images/social-instagram.png"></a>
+        <a href="https://www.instagram.com/americanantiquarian/" target="_blank">
+          <i class="icon-instagram"></i>
+        </a>
       </li>
     </ul>
-
-    <img src="../common/images/aas-seal.png" alt="Seal of the American Antiquarian Society" class="seal">
     
   </div>
 </footer>

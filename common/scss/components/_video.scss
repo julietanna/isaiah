@@ -3,3 +3,22 @@
 	background-color: $gray-light;
 	height: 600px;
 }
+
+.video-transcription {
+	background-color: $gray-light;
+	border: 1px solid $gray-medium;
+	height: 300px;
+	margin: 0 0 $base-spacing 0;
+	overflow-y: scroll;
+	padding: $base-spacing;
+
+	@include span-columns (8);
+	@include shift(2);
+}
+
+.video-header {
+	margin: $base-spacing null -20px null;
+
+	@include span-columns (8);
+	@include shift(2);
+}
