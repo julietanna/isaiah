@@ -21,15 +21,31 @@
 <a href="test-lens.html">back to lens test</a>
 </p>
 
-<svg height="350" width="400">
- <g id="expore"> 
-   <a class="pop_xlink" xlink:href="test-slim.html">
-     <path d="M 100 350 q 150 -300 300 0 L100 350 Z" 
-       style="fill:blue;stroke:pink;stroke-width:5;fill-opacity:0.1;stroke-opacity:0.9" />
-   </a>
-  </g>
-</svg>
+<div id="container">
+  <svg  xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      viewBox="10 20 500 400"> <!-- viewBox="50 200 300 100" -->
 
+    <g transform="translate(10, 50)">
+
+      <image x="20" y="20" xlink:href="images/journal-ms-0203.jpg" />
+
+       <a class="pop_xlink" xlink:href="test-slim.html">
+         <rect x="50" y="50" width="100" height="100"
+             style="stroke: #000099;
+                fill: #3333ff;
+                fill-opacity: 0.5; "/>
+       </a>
+       <a class="pop_xlink" xlink:href="test-slim.html">
+         <path d="M 100 350 q 150 -300 300 0 L100 350 Z" 
+           style="fill:blue;stroke:pink;stroke-width:5;fill-opacity:0.1;stroke-opacity:0.9" />
+       </a>
+
+    </g>
+
+
+  </svg>
+</div>
 
 </body>
 </html>

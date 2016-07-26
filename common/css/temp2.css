@@ -1,0 +1,31 @@
+#container {
+	 width: 80%;
+	 border-style: solid;
+	 border-width: 2px;
+}
+
+svg { 
+	width: 90%; 
+}
+
+/*
+    position: absolute;
+    left: 1px;
+    top: 50px;
+*/
+image { 
+	width: 632px; 
+	height: 484px;
+}
+
+
+/*
+g {
+	stroke: #00ff00; 
+	stroke-width: 4px; 
+	fill: #ff0000;
+}
+path { fill: #d3d3d3; transition: .6s fill; }
+path:hover { fill: #eee; }
+
+*/
