@@ -2,22 +2,27 @@
 .doc-closeread {
 	background-color: $buff;
 	border: 1px solid $taupe;
-	line-height: 1.25em;
 	padding: $large-spacing;
 	text-align: left;
 }
 
 p.closeread-text, h1.closeread-title {
-	color: $gray-dark !important; //why is this not working?
+	color: $gray-dark !important;
+	line-height: 1.5em;
 }
 
 .bracket {
-	//overflow: auto;
-	position: relative;
-}
+	background-color: transparentize($taupe, 0.75);
+		
+	a:link, a:visited {
+		color: $gray-dark;
+		text-decoration: none;
+	}
 
-.bracket:hover {
-		background-color: transparentize($taupe, 0.5);
+	a:hover {
+		background-color: tint($red, 80%);
+		color: $red;
+	}
 }
 
 .bracket-img {

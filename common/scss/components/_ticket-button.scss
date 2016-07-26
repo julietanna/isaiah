@@ -1,0 +1,24 @@
+//for ticket shaped buttons
+//.ticket-button {
+	//background: url(../images/ticket-button.svg);
+	//background-color: green; 
+	//background-size: 100% 100%; 
+	//border: 0;
+	//padding: $small-spacing;
+	//color: white;
+//}
+
+#tkt-button {
+  cursor: pointer;
+  fill: $blue;
+}
+
+#tkt-button:hover {
+  cursor: pointer;
+  fill: #F00;
+}
+
+text {
+  font-size: $base-font-size;
+  fill: white;
+}
