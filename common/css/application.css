@@ -562,13 +562,20 @@ a.definition:hover {
   margin: 0;
   text-align: center; }
 
-#doc-explorer {
-  width: 80%;
-  border-style: solid;
-  border-width: 1px; }
+.svg-content {
+  width: 100%; }
 
-svg {
-  width: 90%; }
+.hotspot {
+  stroke: #b12b00;
+  fill: #b12b00;
+  fill-opacity: 0.1; }
+  .hotspot:hover {
+    fill: #b12b00;
+    fill-opacity: 0.5; }
+
+#document {
+  width: 900px;
+  height: 1400px; }
 
 .landing-square {
   background-color: #dddbd9;

@@ -1,10 +1,20 @@
 //Artifact Explorer
-#doc-explorer {
-	width: 80%;
-	border-style: solid;
-	border-width: 1px;
+.svg-content { 
+	width: 100%; 
 }
 
-svg { 
-	width: 90%; 
+.hotspot {
+	stroke: $action-color;
+		fill: $action-color;
+		fill-opacity: 0.1;
+
+	&:hover {
+		fill: $action-color;
+		fill-opacity: 0.5;
+	}	
+}
+
+#document { 
+	width: 900px; 
+	height: 1400px;
 }

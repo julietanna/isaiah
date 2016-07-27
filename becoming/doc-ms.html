@@ -84,30 +84,47 @@
       <li>Print: <a href="">document only</a> | <a href="">complete module</a></li>
     </ul>     
 
-    <div id="doc-explorer">
+    <div class="doc-image">
+
       <svg  xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            viewBox="10 20 400 300"> <!-- viewBox="50 200 300 100" -->
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 0 900 1400" 
+          class="svg-content"> <!--  --><!-- viewBox="50 200 300 100" -->
 
-          <g transform="translate(1, 1)"><!-- positions group within #container -->
+        <g> <!-- transform="translate(10, 50)" -->
+          <image id="document" x="0" y="0" xlink:href="images/indenture.gif" />
 
-            <image x="10" y="10" xlink:href="images/indenture.jpg" />
+          <a class="pop_xlink" xlink:href="explorers/top-edge.html">
+            <rect class="hotspot"  x="12" y="10" width="854" height="55"/>
+          </a>
 
-             <a class="pop_xlink" xlink:href="test-slim.html">
-               <rect x="50" y="50" width="100" height="100"
-                   style="stroke: #000099;
-                      fill: #3333ff;
-                      fill-opacity: 0.5; "/>
-             </a>
-             <a class="pop_xlink" xlink:href="test-slim.html">
-               <path d="M 100 350 q 150 -300 300 0 L100 350 Z" 
-                 style="fill:blue;stroke:pink;stroke-width:5;fill-opacity:0.1;stroke-opacity:0.9" />
-             </a>
+          <a class="pop_xlink" xlink:href="explorers/stamp.html">
+            <ellipse class="hotspot" cx="155" cy="270" rx="60" ry="60"/>
+          </a>
 
-          </g>
+          <a class="pop_xlink" xlink:href="explorers/form.html">
+            <rect class="hotspot" x="720" y="260" width="150" height="150"/>
+          </a>
 
+          <a class="pop_xlink" xlink:href="explorers/repair.html">
+            <rect class="hotspot" x="20" y="650" width="200" height="100"/>
+          </a>
 
-        </svg>
+          <a class="pop_xlink" xlink:href="explorers/hash-marks.html">
+            <rect class="hotspot" x="470" y="810" width="390" height="50"/>
+          </a>
+
+          <a class="pop_xlink" xlink:href="explorers/fowles-copy.html">
+            <rect class="hotspot" x="480" y="940" width="270" height="400"/>
+          </a>
+
+          <a class="pop_xlink" xlink:href="explorers/wax-seals.html">
+            <rect class="hotspot" x="760" y="940" width="75" height="400"/>
+          </a>
+           
+        </g>
+      </svg>
+
     </div>
 
   </div><!--/doc-area -->
