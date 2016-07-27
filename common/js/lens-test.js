@@ -5,12 +5,12 @@ var statusDiv;
 var isMouseDown = false;
 
 // Canvas Dimensions
-var cw = 0; // 850
-var ch = 0; // 1327
+var cw = 0;
+var ch = 0;
 
 // Puck Dimensions (and Half thereof)
-var pw = 300;
-var ph = 180;
+var pw = 200;
+var ph = 125;
 var pw2 = 0;
 var ph2 = 0;
 
@@ -62,7 +62,7 @@ $(document).ready(function(){
 			
 		};
 		// path is relative to the page on which this operates, not this js file
-		msImg.src = 'images/indenture-lens-image.jpg';
+		msImg.src = 'images/journal-ms-0203.jpg';
 		
 		
 		// set up dragable rectangle on text canvas
@@ -78,7 +78,7 @@ $(document).ready(function(){
 			//ctx.drawImage(textImg,100,100,200,125,100,100,200,125);
 			
 		};
-		textImg.src = 'images/indenture-lens-text.jpg';
+		textImg.src = 'images/journal-txt-0203.gif';
 		
 
 	    cw = canvas.width;
@@ -124,8 +124,7 @@ $(document).ready(function(){
 	    //DrawRect(px, py, pw, ph, "blue");
 
 		//
-		//ctx.drawImage(textImg,px,py,300,200,px,py,300,200);
-		ctx.drawImage(textImg,px,py,pw,ph,px,py,pw,ph);
+		ctx.drawImage(textImg,px,py,200,125,px,py,200,125);
 		
 	}
 
@@ -189,7 +188,6 @@ $(document).ready(function(){
 
 	    
 // Init();
-	startLens();
 
 }); // end doc ready
 
