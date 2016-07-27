@@ -1,0 +1,40 @@
+/*
+#container {
+	 width: 80%;
+	 border-style: solid;
+	 border-width: 2px;
+}
+
+*/
+.svg-content { 
+	width: 100%; 
+}
+
+.hotspot {
+	stroke: #000099;
+	fill: #3333ff;
+	fill-opacity: 0.5;	
+}
+
+/*
+    position: absolute;
+    left: 1px;
+    top: 50px;
+*/
+    
+#document { 
+	width: 900px; 
+	height: 1400px;
+}
+
+
+/*
+g {
+	stroke: #00ff00; 
+	stroke-width: 4px; 
+	fill: #ff0000;
+}
+path { fill: #d3d3d3; transition: .6s fill; }
+path:hover { fill: #eee; }
+
+*/
