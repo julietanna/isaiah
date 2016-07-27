@@ -399,8 +399,7 @@ picture {
 .doc-modes li, .doc-tools li {
   display: inline-block;
   margin-right: 1.6em;
-  margin-bottom: 1.6em;
-  width: 25%; }
+  margin-bottom: 1.6em; }
   .doc-modes li a, .doc-tools li a {
     padding: 0.8em; }
   .doc-modes li a.selected:link, .doc-modes li a.selected:visited, .doc-tools li a.selected:link, .doc-tools li a.selected:visited {
@@ -562,6 +561,14 @@ a.definition:hover {
   font-style: italic;
   margin: 0;
   text-align: center; }
+
+#doc-explorer {
+  width: 80%;
+  border-style: solid;
+  border-width: 1px; }
+
+svg {
+  width: 90%; }
 
 .landing-square {
   background-color: #dddbd9;
