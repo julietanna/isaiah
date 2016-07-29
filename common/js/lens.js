@@ -28,7 +28,7 @@ var sy = 1.0;
 
 // div offset -- left and top edge of where mouse is active over puck
 // may have only been necessary in elaborate canvas placement in Jernegan
-var divOffsetLeft = 0; // 400
+var divOffsetLeft = 428; // 400
 var divOffsetTop  = 0; //60
 
 // new
@@ -98,7 +98,7 @@ $(document).ready(function(){
 	    px = px * sx;
 	    py = py * sy;
 
-	    statusDiv.innerHTML = "Attr:" + canvas.width + "," + canvas.height
+	    statusDiv.innerHTML = "canvas w,h:" + canvas.width + "," + canvas.height
 	                     + "; Actual:" + canvas.offsetWidth + "," + canvas.offsetHeight
 	                    + "; Scale:" + sx + "," + sy
 	                     + "; Puck:" + pw + "," + ph;
@@ -176,9 +176,12 @@ $(document).ready(function(){
 
 
 	function IsCursorOverPuck(x, y) {
-	    statusDiv.innerHTML = "Cursor[" + x + ", " + y + "], CanvasOffset[" +
+	    statusDiv.innerHTML = "Cursor x,y[" + x + ", " + y + 
+	    	"], canvas.offsetLeft: " + canvas.offsetLeft +
+	    	"], x- canvas.offsetLeft -divOffsetLeft[" +
 	        (x - canvas.offsetLeft - divOffsetLeft) + ", " + 
-	        (y - canvas.offsetTop - divOffsetTop) + "], Puck[" +
+	        (y - canvas.offsetTop - divOffsetTop) + 
+	        "], Puck[" +
 	        px + ", " + py + "]";
 
 	    return (x - canvas.offsetLeft - divOffsetLeft) * sx > px  &&  
