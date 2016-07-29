@@ -102,3 +102,15 @@ dl.doc-curatorial {
 .resources-list-img {
 //	display: block;
 }
+
+#zoom-container { 
+	width: 900px; 
+	height: 1400px; 
+	margin: auto; 
+	border: 1px solid $gray-medium; 
+}
+
+#doc_audio {
+	vertical-align: middle;
+	width: 250px;
+}

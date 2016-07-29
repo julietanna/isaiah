@@ -451,6 +451,16 @@ dl.doc-curatorial {
     .doc-resources-list li img.resources-menu-img {
       border: 1px solid #7d7664; }
 
+#zoom-container {
+  width: 900px;
+  height: 1400px;
+  margin: auto;
+  border: 1px solid #999; }
+
+#doc_audio {
+  vertical-align: middle;
+  width: 250px; }
+
 footer {
   background-color: #8C2300;
   color: #eeece0;
@@ -814,7 +824,7 @@ a.secondary-nav-selected:link, a.secondary-nav-selected:visited {
 
 .video-area {
   background-color: white;
-  height: 500px; }
+  text-align: center; }
 
 .video-transcription {
   background-color: white;
