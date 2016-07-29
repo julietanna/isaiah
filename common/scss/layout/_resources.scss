@@ -1,0 +1,33 @@
+//Related Resources Page
+.primary-resources {
+	@include clearfix;
+	
+	h2 {
+		font-size: $large-font-size;
+		font-weight: normal;
+		margin: $base-spacing 0 $small-spacing 0;
+	}
+}
+
+.related-list {
+	@include span-columns (4);
+
+		h2 {
+		font-size: $large-font-size;
+		font-weight: normal;
+		margin: $base-spacing 0 0 0;
+	}
+}
+
+.resources-menu {
+	
+	li {
+	  @include span-columns(2);
+	  @include omega(6n);
+		display: inline-block;
+	}
+}
+
+.resources-menu-img {
+	border: 1px solid $taupe;
+}

@@ -65,6 +65,7 @@ dl.doc-curatorial {
 }
 
 .doc-resources-list {
+	overflow-x: scroll;
 	white-space: nowrap;
 	
 	li {
@@ -74,9 +75,13 @@ dl.doc-curatorial {
 		max-width: 175px;
 		vertical-align: top;
 		white-space: normal;
+
+		img.resources-menu-img {
+				border: 1px solid $gray-dark;
+		}
 	}
 }
 
 .resources-list-img {
-	display: block;
+//	display: block;
 }
