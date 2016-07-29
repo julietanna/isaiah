@@ -2,6 +2,8 @@
 *.jpg
 *.png
 *.gif
+*.mp3
+*.mp4
 
 # files
 .DS_Store
