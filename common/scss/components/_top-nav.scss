@@ -5,6 +5,11 @@
 
 .main-nav-items, .secondary-nav-items {
 	@include outer-container;
+	height: $top-navigation-height;
+  @include media(max-width 1075px) {
+    font-weight: bold;
+    font-size: $smallish-font-size;
+  }
 
 	font-variant: small-caps;
 	//height: $top-navigation-height;
@@ -14,7 +19,11 @@
 		display: inline-block;
 		line-height: 1em;
 		vertical-align: middle;
-	}
+		width: 15%;
+
+	  @include media(max-width 1075px) {
+	  }
+  }
 }
 
 .main-nav {
@@ -23,6 +32,10 @@
 
 .main-nav-items {
 	
+	li {
+		@include span-columns(2);
+	}
+
 	a {
 		display: block;
 		padding: .75em;
@@ -44,7 +57,10 @@
 }
 
 .secondary-nav-items {
-	
+	li {
+		@include span-columns(3);
+	}
+
 	a {
 		display: block;
 		padding: $tiny-spacing;
@@ -69,6 +85,7 @@
 a.main-nav-selected:link, a.main-nav-selected:visited {
 	background-color: $red;
 	color: #fff;
+	height: $top-navigation-height;
 
 	background-image:
 		radial-gradient(circle at 0 0, $taupe 12px, rgba(204,0,0,0) 13px),
@@ -78,6 +95,7 @@ a.main-nav-selected:link, a.main-nav-selected:visited {
 a.secondary-nav-selected:link, a.secondary-nav-selected:visited {
 	background-color: #fff;
 	color: $red;
+	height: $top-navigation-height;
 
 	background-image:
 		radial-gradient(circle at 0 0, $red 12px, rgba(204,0,0,0) 13px),

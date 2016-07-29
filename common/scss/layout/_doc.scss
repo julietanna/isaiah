@@ -11,7 +11,18 @@
 .doc-image {
 //	width: 100%
 }
- .doc-modes, .doc-tools {
+
+.doc-tools {
+	font-family: $utility-font-family;	
+	font-size: $smallish-font-size;
+	
+	li {
+		display: inline-block;
+		margin: $small-spacing;
+	}
+}
+
+.doc-modes {
 
 	li {
 		display: inline-block;
@@ -19,7 +30,13 @@
 		margin-bottom: $base-spacing;
 
 		a {
-			padding: $small-spacing;
+			padding: $small-spacing $base-spacing;
+			background-color: lighten($taupe, 25%);
+			background-image:
+				radial-gradient(circle at 0 0, #fff 10px, rgba(204,0,0,0) 12px),
+				radial-gradient(circle at 100% 0, #fff 10px, rgba(204,0,0,0) 12px),
+				radial-gradient(circle at 100% 100%, #fff 10px, rgba(204,0,0,0) 12px),
+				radial-gradient(circle at 0 100%, #fff 10px, rgba(204,0,0,0) 12px);
 		}
 
 		a.selected:link, a.selected:visited {

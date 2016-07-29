@@ -1,7 +1,7 @@
 //Video
 .video-area {
 	background-color: $gray-light;
-	height: 600px;
+	height: 500px;
 }
 
 .video-transcription {
@@ -21,4 +21,29 @@
 
 	@include span-columns (8);
 	@include shift(2);
+}
+
+.film-credits {
+	clear: left;
+	text-align: center;
+}
+
+.credits {
+
+	dt {
+    clear: left;
+		float: left;
+		font-style: italic;
+		margin-top: 0;
+    text-align: right;
+    width: 50%;
+	}
+
+	dd {
+		color: $blue-font-color;
+  	margin-left: 51%;
+		padding-bottom: $tiny-spacing;
+		text-align: left;
+  	width: 50%;
+	}
 }

@@ -33,7 +33,7 @@ $taupe: #ACA9A4;
 $buff: #fff4e4;
 $gray-dark: #7d7664 !default;
 $gray-medium: #999;
-$gray-light: #ddd;
+$gray-light: lighten($taupe, 50%);
 
 
 // Font Colors
