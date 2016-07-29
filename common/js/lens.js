@@ -28,7 +28,7 @@ var sy = 1.0;
 
 // div offset -- left and top edge of where mouse is active over puck
 // may have only been necessary in elaborate canvas placement in Jernegan
-var divOffsetLeft = 428; // 400
+var divOffsetLeft = 0; // 428
 var divOffsetTop  = 0; //60
 
 // new
