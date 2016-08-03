@@ -579,12 +579,21 @@ p.closeread-text, h1.closeread-title {
 
 .bracket {
   background-color: rgba(172, 169, 164, 0.25); }
-  .bracket a:link, .bracket a:visited {
-    color: #7d7664;
+  .bracket:hover {
+    background-color: #e8d3cc; }
+
+a.outer {
+  color: #7d7664; }
+  a.outer:link, a.outer:visited {
     text-decoration: none; }
-  .bracket a:hover {
-    background-color: #e8d3cc;
-    color: #8C2300; }
+
+a.definition {
+  color: #7d7664; }
+  a.definition:link, a.definition:visited {
+    text-decoration: underline; }
+
+a.definition:hover {
+  color: #8C2300; }
 
 .bracket-img {
   height: 100%;
@@ -592,13 +601,6 @@ p.closeread-text, h1.closeread-title {
   position: absolute;
   top: 0;
   left: -30px; }
-
-a.definition:link, a.definition:visited {
-  color: #7d7664;
-  text-decoration: underline; }
-
-a.definition:hover {
-  color: #8C2300; }
 
 .script {
   font-family: "learning-curve";
