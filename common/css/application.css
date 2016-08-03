@@ -751,6 +751,7 @@ text {
   margin-left: auto;
   margin-right: auto;
   height: 50px;
+  font-size: 0.9em;
   font-variant: small-caps;
   letter-spacing: .05em; }
   .main-nav-items::after, .secondary-nav-items::after {
@@ -759,8 +760,7 @@ text {
     display: table; }
   @media screen and (max-width: 1075px) {
     .main-nav-items, .secondary-nav-items {
-      font-weight: bold;
-      font-size: 0.9em; } }
+      font-weight: bold; } }
   .main-nav-items li, .secondary-nav-items li {
     display: inline-block;
     line-height: 1em;

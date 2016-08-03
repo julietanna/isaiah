@@ -8,9 +8,9 @@
 	height: $top-navigation-height;
   @include media(max-width 1075px) {
     font-weight: bold;
-    font-size: $smallish-font-size;
   }
 
+  font-size: $smallish-font-size;
 	font-variant: small-caps;
 	//height: $top-navigation-height;
 	letter-spacing: .05em;
