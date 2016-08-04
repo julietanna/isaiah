@@ -25,18 +25,18 @@ var svg = d3.select("svg")
     .attr('transform', 'translate('+margin+','+margin+')');
 */
 
-// add border - before lens
+// add border - before lens? hmm, may not matter
 d3.select("svg g").append("svg:rect")
     .attr("id", "lens-border")
     .attr('x', lsx)
     .attr('y', lsy)
-    .attr('width', lw + 2)
-    .attr('height', lh + 2)
+    .attr('width', lw)
+    .attr('height', lh)
     .attr('rx', 15)
     .attr('ry', 15)
     .style("fill-opacity", 0)
-    .style("stroke", "#ACA9A4")
-    .style("stroke-width", 4)
+    .style("stroke", "#7d7664")
+    .style("stroke-width", 1)
     .style('cursor', 'move')
     .call(drag);
     ;
