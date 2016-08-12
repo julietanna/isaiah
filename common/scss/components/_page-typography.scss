@@ -1,9 +1,21 @@
 //Main Page Content Typography
 .page {
 	
-	h1, h2, h3, p {
+	h1, h2, h3 {
 		color: $blue-font-color;
 	}
+
+.subtitle {
+	font-size: $medlarge-font-size;
+}
+
+p, dl, dt, dd, ul, ol, li, blockquote {
+	color: $base-font-color;
+}
+
+p {
+	font-size: $base-font-size * 1.15;
+}
 
 	h1 {
 		font-weight: normal;

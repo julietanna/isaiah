@@ -8,11 +8,11 @@
 
 p.closeread-text, h1.closeread-title {
 	color: $gray-dark !important;
-	line-height: 1.5em;
+	line-height: 1.75em;
 }
 
 .bracket {
-	background-color: transparentize($taupe, 0.75);
+	background-color: transparentize($taupe, 0.6);
 
 	&:hover {
 		background-color: tint($red, 80%);

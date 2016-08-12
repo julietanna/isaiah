@@ -17,13 +17,18 @@
 		font-weight: normal;
 		margin: $base-spacing 0 0 0;
 	}
+
+	li {
+		font-size: $base-font-size * 1.15;
+		padding-bottom: $small-spacing;
+	}
 }
 
 .resources-menu {
 	
 	li {
-	  @include span-columns(2);
-	  @include omega(6n);
+	  @include span-columns(12 / 7);
+	  @include omega(7n);
 		display: inline-block;
 	}
 }

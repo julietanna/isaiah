@@ -19,7 +19,8 @@
 
 // JavaScript assigns this (or .hidden) to slimpop-container */
 .slimpop-basicsize {
-  background: $buff;
+  background: #fff;
+  color: $gray-dark;
   //bottom: 0;
   display: block;
   left: 0;
@@ -57,19 +58,17 @@
 
 .slimpop-close a {
   /* for the close link */
-  color: $base-font-color;
+  color: $gray-dark;
   float: right;
   font-variant: small-caps;
 }
 
-.slim-title {
-  color: #b12b00;
-  font-size: 1.5em;
-  margin-bottom: 0.4em; }
+p.source {
+  font-family: $utility-font-family;
+  font-size: $small-font-size;
+  padding-bottom: $small-spacing;
 
-.slim-subhead {
-  color: #b12b00;
-  margin: 0 0 0.4em 0; }
-
-.slim-caption {
-  color: #b3aa98; }
+    a {
+      color: $gray-dark;
+    }
+}

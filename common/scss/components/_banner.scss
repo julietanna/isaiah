@@ -5,15 +5,20 @@
 	height: 155px;
 
 	h1 {
+		font-size: $title-font-size * 1.25;		
+	}
+
+	h1, h3 {
 		color: #fff;
-		font-size: $title-font-size * 1.25;
 		font-variant: small-caps;
 		font-weight: normal;
+		line-height: $heading-line-height;
 		margin-left: 40%;
-		padding-top: 2%;
 
 		a {
 			color: #fff;
 		}
 	}
 }
+
+
